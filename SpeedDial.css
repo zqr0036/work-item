@@ -1,41 +1,27 @@
 *{
-	list-style: none;
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 .wrap{
-	overflow: hidden;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 .wrap ul{
-	margin: 0 auto;
-	height: 580px;
-	width: 580px;
+	overflow: hidden;
+	width: 100%;
 }
 .wrap ul li{
-	border-radius: 10%;
-	height: 30%;
-	width: 30%;
-	background-color: orange;
+	position: relative;
 	float: left;
-	margin: 5px;
+	width: 32%;
+	margin: 1% 0 0 1%;
+	padding: 16% 0;
+	background-color: orange;
+	border-radius: 10%;
 }
- @media screen and (max-width: 580px){
-	.wrap ul{width: 530px;}
-	.wrap ul li{height: 25%;}
-}
-@media screen and (max-width: 480px){
-	.wrap ul{width: 430px;}
-	.wrap ul li{height: 20%;}
-}
-@media screen and (max-width: 380px){
-	.wrap ul{width: 330px;}
-	.wrap ul li{height: 15%;}
-}
-@media screen and (max-width: 280px){
-	.wrap ul{width: 230px;}
-	.wrap ul li{height: 10%;width: 28%;}
-}
- 
+
+
 
 
 					
