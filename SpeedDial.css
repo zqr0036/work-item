@@ -7,9 +7,9 @@
 	overflow: hidden;
 }
 .wrap ul{
-	height: 630px;
-	width: 630px;
-	margin: 20px auto;
+	margin: 0 auto;
+	height: 580px;
+	width: 580px;
 }
 .wrap ul li{
 	border-radius: 10%;
@@ -19,23 +19,23 @@
 	float: left;
 	margin: 5px;
 }
-@media screen and (max-width: 980px){
+ @media screen and (max-width: 580px){
 	.wrap ul{width: 530px;}
 	.wrap ul li{height: 25%;}
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 480px){
 	.wrap ul{width: 430px;}
 	.wrap ul li{height: 20%;}
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 380px){
 	.wrap ul{width: 330px;}
 	.wrap ul li{height: 15%;}
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 280px){
 	.wrap ul{width: 230px;}
 	.wrap ul li{height: 10%;width: 28%;}
 }
-
+ 
 
 
 					
